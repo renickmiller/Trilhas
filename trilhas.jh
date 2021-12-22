@@ -1,0 +1,82 @@
+
+entity Trilhas {
+	nome String required
+    descricao String 
+    comprimento Float required
+}
+entity CadastroTrilha {
+	dataHora Date //??
+}
+entity Usuario{
+	email String required
+    nome String required
+    senha Integer required
+}
+entity SituacoesTrilha{
+	situacao Boolean 
+}
+entity PontosVenda{
+	nome String
+    avaliacao Integer // 1 a 5
+}
+entity PontosCardeais{
+	latitude String 
+    longitude String
+    descricao String
+}
+entity PontosTuristicos{
+	nome String
+    descricao String
+}
+entity TiposPontoVenda{
+	nome String
+    descricao String
+}
+entity Municipios{
+	nome String
+}
+entity TiposPontoTuristico{
+	nome String
+    descricao String
+}
+entity Fotografias{
+	descricao String
+    autor String
+}
+// an ignored comment
+/** not an ignored comment */
+
+enum Language {
+    FRENCH, ENGLISH, SPANISH, PORTUGUESE
+}
+relationship OneToMany {
+	Usuario{CadastroTrilha} to CadastroTrilha
+    Trilhas{PontosVenda} to PontosVenda
+    Trilhas{PontosTuristicos} to PontosTuristicos
+    Trilhas{Fotografias} to Fotografias
+    PontosTuristicos{Fotografias} to Fotografias
+    PontosVenda{Fotografias} to Fotografias
+}
+relationship OneToOne {
+	CadastroTrilha{Trilhas} to Trilhas
+    Trilhas{SituacoesTrilha} to SituacoesTrilha
+    PontosVenda{PontosCardeais} to PontosCardeais
+    PontosTuristicos{PontosCardeais} to PontosCardeais
+    Trilhas{PontosCardeais} to PontosCardeais
+    PontosVenda{TiposPontosVenda} to TiposPontoVenda
+    PontosCardeais{Municipios} to Municipios
+    PontosTuristicos{TiposPontoTuristico} to TiposPontoTuristico
+}
+
+// Set pagination options
+paginate JobHistory, Employee with infinite-scroll
+paginate Job with pagination
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl except Employee, Job
+
+// Set an angular suffix
+// angularSuffix * with mySuffix

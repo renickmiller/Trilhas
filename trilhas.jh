@@ -5,7 +5,7 @@ entity Trilhas {
     comprimento Float required
 }
 entity CadastroTrilha {
-	dataHora Date //??
+	dataHora String
 }
 entity Usuario{
 	email String required

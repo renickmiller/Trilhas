@@ -1,0 +1,36 @@
+{
+  "name": "PontosCardeais",
+  "fields": [
+    {
+      "fieldName": "latitude",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "longitude",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descricao",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "municipios",
+      "otherEntityRelationshipName": "pontosCardeais",
+      "relationshipName": "municipios",
+      "ownerSide": true
+    }
+  ],
+  "entityTableName": "pontos_cardeais",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20220119013948"
+}

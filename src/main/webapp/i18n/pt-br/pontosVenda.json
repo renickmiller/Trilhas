@@ -1,0 +1,29 @@
+{
+  "trilhasTesteApp": {
+    "pontosVenda": {
+      "home": {
+        "title": "Pontos Vendas",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Pontos Venda",
+        "createOrEditLabel": "Criar ou editar Pontos Venda",
+        "notFound": "Nenhum Pontos Venda encontrado"
+      },
+      "created": "Um novo Pontos Venda foi criado com o identificador {{ param }}",
+      "updated": "Um Pontos Venda foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Pontos Venda foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Pontos Venda {{ id }}?"
+      },
+      "detail": {
+        "title": "Pontos Venda"
+      },
+      "id": "ID",
+      "nome": "Nome",
+      "avaliacao": "Avaliacao",
+      "pontosCardeais": "Pontos Cardeais",
+      "tiposPontosVenda": "Tipos Pontos Venda",
+      "fotografias": "Fotografias",
+      "trilhas": "Trilhas"
+    }
+  }
+}

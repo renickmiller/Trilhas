@@ -1,0 +1,34 @@
+{
+  "name": "CadastroTrilha",
+  "fields": [
+    {
+      "fieldName": "dataHora",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "trilhas",
+      "otherEntityRelationshipName": "cadastroTrilha",
+      "relationshipName": "trilhas",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "usuario",
+      "otherEntityRelationshipName": "cadastroTrilha",
+      "relationshipName": "usuario"
+    }
+  ],
+  "entityTableName": "cadastro_trilha",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20220119013944"
+}

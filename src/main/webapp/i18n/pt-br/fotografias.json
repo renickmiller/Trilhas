@@ -1,0 +1,28 @@
+{
+  "trilhasTesteApp": {
+    "fotografias": {
+      "home": {
+        "title": "Fotografias",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Fotografias",
+        "createOrEditLabel": "Criar ou editar Fotografias",
+        "notFound": "Nenhum Fotografias encontrado"
+      },
+      "created": "Um novo Fotografias foi criado com o identificador {{ param }}",
+      "updated": "Um Fotografias foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Fotografias foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Fotografias {{ id }}?"
+      },
+      "detail": {
+        "title": "Fotografias"
+      },
+      "id": "ID",
+      "descricao": "Descricao",
+      "autor": "Autor",
+      "trilhas": "Trilhas",
+      "pontosTuristicos": "Pontos Turisticos",
+      "pontosVenda": "Pontos Venda"
+    }
+  }
+}

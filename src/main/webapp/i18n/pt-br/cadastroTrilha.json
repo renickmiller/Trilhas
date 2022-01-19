@@ -1,0 +1,26 @@
+{
+  "trilhasTesteApp": {
+    "cadastroTrilha": {
+      "home": {
+        "title": "Cadastro Trilhas",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Cadastro Trilha",
+        "createOrEditLabel": "Criar ou editar Cadastro Trilha",
+        "notFound": "Nenhum Cadastro Trilha encontrado"
+      },
+      "created": "Um novo Cadastro Trilha foi criado com o identificador {{ param }}",
+      "updated": "Um Cadastro Trilha foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Cadastro Trilha foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Cadastro Trilha {{ id }}?"
+      },
+      "detail": {
+        "title": "Cadastro Trilha"
+      },
+      "id": "ID",
+      "dataHora": "Data Hora",
+      "trilhas": "Trilhas",
+      "usuario": "Usuario"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "trilhasTesteApp": {
+    "tiposPontoVenda": {
+      "home": {
+        "title": "Tipos Ponto Vendas",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Tipos Ponto Venda",
+        "createOrEditLabel": "Create or edit a Tipos Ponto Venda",
+        "notFound": "No Tipos Ponto Vendas found"
+      },
+      "created": "A new Tipos Ponto Venda is created with identifier {{ param }}",
+      "updated": "A Tipos Ponto Venda is updated with identifier {{ param }}",
+      "deleted": "A Tipos Ponto Venda is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tipos Ponto Venda {{ id }}?"
+      },
+      "detail": {
+        "title": "Tipos Ponto Venda"
+      },
+      "id": "ID",
+      "nome": "Nome",
+      "descricao": "Descricao"
+    }
+  }
+}

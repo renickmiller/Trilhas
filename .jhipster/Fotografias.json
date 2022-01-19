@@ -1,0 +1,43 @@
+{
+  "name": "Fotografias",
+  "fields": [
+    {
+      "fieldName": "descricao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "autor",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "trilhas",
+      "otherEntityRelationshipName": "fotografias",
+      "relationshipName": "trilhas"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "pontosTuristicos",
+      "otherEntityRelationshipName": "fotografias",
+      "relationshipName": "pontosTuristicos"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "pontosVenda",
+      "otherEntityRelationshipName": "fotografias",
+      "relationshipName": "pontosVenda"
+    }
+  ],
+  "entityTableName": "fotografias",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20220119013953"
+}

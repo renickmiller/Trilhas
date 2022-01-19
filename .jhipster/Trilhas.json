@@ -1,0 +1,63 @@
+{
+  "name": "Trilhas",
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "descricao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "comprimento",
+      "fieldType": "Float",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "situacoesTrilha",
+      "otherEntityRelationshipName": "trilhas",
+      "relationshipName": "situacoesTrilha",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "pontosCardeais",
+      "otherEntityRelationshipName": "trilhas",
+      "relationshipName": "pontosCardeais",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "pontosVenda",
+      "otherEntityRelationshipName": "trilhas",
+      "relationshipName": "pontosVenda"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "pontosTuristicos",
+      "otherEntityRelationshipName": "trilhas",
+      "relationshipName": "pontosTuristicos"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "fotografias",
+      "otherEntityRelationshipName": "trilhas",
+      "relationshipName": "fotografias"
+    }
+  ],
+  "entityTableName": "trilhas",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20220119013943"
+}

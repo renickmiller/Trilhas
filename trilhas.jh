@@ -5,7 +5,7 @@ entity Trilhas {
     comprimento Float required
 }
 entity CadastroTrilha {
-	dataHora Date //??
+	dataHora LocalDate
 }
 entity Usuario{
 	email String required
@@ -17,6 +17,7 @@ entity SituacoesTrilha{
 }
 entity PontosVenda{
 	nome String
+    descricao String
     avaliacao Integer // 1 a 5
 }
 entity PontosCardeais{
@@ -27,6 +28,7 @@ entity PontosCardeais{
 entity PontosTuristicos{
 	nome String
     descricao String
+    avaliacao Integer //1 a 5
 }
 entity TiposPontoVenda{
 	nome String
@@ -42,12 +44,13 @@ entity TiposPontoTuristico{
 entity Fotografias{
 	descricao String
     autor String
+    avaliacao Integer //1 a 5
 }
 // an ignored comment
 /** not an ignored comment */
 
 enum Language {
-    FRENCH, ENGLISH, SPANISH, PORTUGUESE
+  FRENCH, ENGLISH, SPANISH, PORTUGUESE
 }
 relationship OneToMany {
 	Usuario{CadastroTrilha} to CadastroTrilha
@@ -68,15 +71,4 @@ relationship OneToOne {
     PontosTuristicos{TiposPontoTuristico} to TiposPontoTuristico
 }
 
-// Set pagination options
-paginate JobHistory, Employee with infinite-scroll
-paginate Job with pagination
 
-// Use Data Transfer Objects (DTO)
-// dto * with mapstruct
-
-// Set service options to all except few
-service all with serviceImpl except Employee, Job
-
-// Set an angular suffix
-// angularSuffix * with mySuffix

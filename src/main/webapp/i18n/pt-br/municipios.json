@@ -1,0 +1,24 @@
+{
+  "trilhasTesteApp": {
+    "municipios": {
+      "home": {
+        "title": "Municipios",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Municipios",
+        "createOrEditLabel": "Criar ou editar Municipios",
+        "notFound": "Nenhum Municipios encontrado"
+      },
+      "created": "Um novo Municipios foi criado com o identificador {{ param }}",
+      "updated": "Um Municipios foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Municipios foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Municipios {{ id }}?"
+      },
+      "detail": {
+        "title": "Municipios"
+      },
+      "id": "ID",
+      "nome": "Nome"
+    }
+  }
+}

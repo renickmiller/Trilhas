@@ -1,0 +1,55 @@
+{
+  "name": "PontosTuristicos",
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descricao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "avaliacao",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "pontosCardeais",
+      "otherEntityRelationshipName": "pontosTuristicos",
+      "relationshipName": "pontosCardeais",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "tiposPontoTuristico",
+      "otherEntityRelationshipName": "pontosTuristicos",
+      "relationshipName": "tiposPontoTuristico",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "fotografias",
+      "otherEntityRelationshipName": "pontosTuristicos",
+      "relationshipName": "fotografias"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "trilhas",
+      "otherEntityRelationshipName": "pontosTuristicos",
+      "relationshipName": "trilhas"
+    }
+  ],
+  "entityTableName": "pontos_turisticos",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20220120155130"
+}

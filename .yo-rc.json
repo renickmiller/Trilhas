@@ -42,7 +42,21 @@
     "clientTheme": "none",
     "clientThemeVariant": "",
     "reactive": false,
-    "enableGradleEnterprise": false
+    "enableGradleEnterprise": false,
+    "entities": [
+      "Trilhas",
+      "CadastroTrilha",
+      "Usuario",
+      "SituacoesTrilha",
+      "PontosVenda",
+      "PontosCardeais",
+      "PontosTuristicos",
+      "TiposPontoVenda",
+      "Municipios",
+      "TiposPontoTuristico",
+      "Fotografias"
+    ],
+    "lastLiquibaseTimestamp": 1642693894000
   },
   "git-provider": "GitHub",
   "git-company": "renickmiller",

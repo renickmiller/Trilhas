@@ -1,0 +1,24 @@
+{
+  "trilhasTesteApp": {
+    "situacoesTrilha": {
+      "home": {
+        "title": "Situacoes Trilhas",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Situacoes Trilha",
+        "createOrEditLabel": "Criar ou editar Situacoes Trilha",
+        "notFound": "Nenhum Situacoes Trilha encontrado"
+      },
+      "created": "Um novo Situacoes Trilha foi criado com o identificador {{ param }}",
+      "updated": "Um Situacoes Trilha foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Situacoes Trilha foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Situacoes Trilha {{ id }}?"
+      },
+      "detail": {
+        "title": "Situacoes Trilha"
+      },
+      "id": "ID",
+      "situacao": "Situacao"
+    }
+  }
+}

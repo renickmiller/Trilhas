@@ -1,0 +1,24 @@
+{
+  "applications": "*",
+  "changelogDate": "20220126225211",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "tipos_ponto_venda",
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descricao",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "TiposPontoVenda",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

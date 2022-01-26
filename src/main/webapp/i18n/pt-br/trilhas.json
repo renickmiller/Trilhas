@@ -1,0 +1,31 @@
+{
+  "trilhasTesteApp": {
+    "trilhas": {
+      "home": {
+        "title": "Trilhas",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Trilhas",
+        "createOrEditLabel": "Criar ou editar Trilhas",
+        "notFound": "Nenhum Trilhas encontrado"
+      },
+      "created": "Um novo Trilhas foi criado com o identificador {{ param }}",
+      "updated": "Um Trilhas foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Trilhas foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Trilhas {{ id }}?"
+      },
+      "detail": {
+        "title": "Trilhas"
+      },
+      "id": "ID",
+      "nome": "Nome",
+      "descricao": "Descricao",
+      "comprimento": "Comprimento",
+      "situacoesTrilha": "Situacoes Trilha",
+      "pontosCardeais": "Pontos Cardeais",
+      "pontosVenda": "Pontos Venda",
+      "pontosTuristicos": "Pontos Turisticos",
+      "fotografias": "Fotografias"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "applications": "*",
+  "changelogDate": "20220126225205",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "cadastro_trilha",
+  "fields": [
+    {
+      "fieldName": "dataHora",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "CadastroTrilha",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "trilhas",
+      "otherEntityRelationshipName": "cadastroTrilha",
+      "ownerSide": true,
+      "relationshipName": "trilhas",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "usuario",
+      "otherEntityRelationshipName": "cadastroTrilha",
+      "relationshipName": "usuario",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

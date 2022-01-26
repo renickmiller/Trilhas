@@ -48,6 +48,23 @@ public class CacheConfiguration {
             createCache(cm, br.trilhas.ufpa.domain.User.class.getName());
             createCache(cm, br.trilhas.ufpa.domain.Authority.class.getName());
             createCache(cm, br.trilhas.ufpa.domain.User.class.getName() + ".authorities");
+            createCache(cm, br.trilhas.ufpa.domain.Trilhas.class.getName());
+            createCache(cm, br.trilhas.ufpa.domain.Trilhas.class.getName() + ".pontosVendas");
+            createCache(cm, br.trilhas.ufpa.domain.Trilhas.class.getName() + ".pontosTuristicos");
+            createCache(cm, br.trilhas.ufpa.domain.Trilhas.class.getName() + ".fotografias");
+            createCache(cm, br.trilhas.ufpa.domain.CadastroTrilha.class.getName());
+            createCache(cm, br.trilhas.ufpa.domain.Usuario.class.getName());
+            createCache(cm, br.trilhas.ufpa.domain.Usuario.class.getName() + ".cadastroTrilhas");
+            createCache(cm, br.trilhas.ufpa.domain.SituacoesTrilha.class.getName());
+            createCache(cm, br.trilhas.ufpa.domain.PontosVenda.class.getName());
+            createCache(cm, br.trilhas.ufpa.domain.PontosVenda.class.getName() + ".fotografias");
+            createCache(cm, br.trilhas.ufpa.domain.PontosCardeais.class.getName());
+            createCache(cm, br.trilhas.ufpa.domain.PontosTuristicos.class.getName());
+            createCache(cm, br.trilhas.ufpa.domain.PontosTuristicos.class.getName() + ".fotografias");
+            createCache(cm, br.trilhas.ufpa.domain.TiposPontoVenda.class.getName());
+            createCache(cm, br.trilhas.ufpa.domain.Municipios.class.getName());
+            createCache(cm, br.trilhas.ufpa.domain.TiposPontoTuristico.class.getName());
+            createCache(cm, br.trilhas.ufpa.domain.Fotografias.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

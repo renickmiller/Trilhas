@@ -1,0 +1,25 @@
+{
+  "trilhasTesteApp": {
+    "tiposPontoTuristico": {
+      "home": {
+        "title": "Tipos Ponto Turisticos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Tipos Ponto Turistico",
+        "createOrEditLabel": "Criar ou editar Tipos Ponto Turistico",
+        "notFound": "Nenhum Tipos Ponto Turistico encontrado"
+      },
+      "created": "Um novo Tipos Ponto Turistico foi criado com o identificador {{ param }}",
+      "updated": "Um Tipos Ponto Turistico foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Tipos Ponto Turistico foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Tipos Ponto Turistico {{ id }}?"
+      },
+      "detail": {
+        "title": "Tipos Ponto Turistico"
+      },
+      "id": "ID",
+      "nome": "Nome",
+      "descricao": "Descricao"
+    }
+  }
+}

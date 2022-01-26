@@ -1,0 +1,25 @@
+{
+  "trilhasTesteApp": {
+    "tiposPontoTuristico": {
+      "home": {
+        "title": "Tipos Ponto Turisticos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Tipos Ponto Turistico",
+        "createOrEditLabel": "Create or edit a Tipos Ponto Turistico",
+        "notFound": "No Tipos Ponto Turisticos found"
+      },
+      "created": "A new Tipos Ponto Turistico is created with identifier {{ param }}",
+      "updated": "A Tipos Ponto Turistico is updated with identifier {{ param }}",
+      "deleted": "A Tipos Ponto Turistico is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tipos Ponto Turistico {{ id }}?"
+      },
+      "detail": {
+        "title": "Tipos Ponto Turistico"
+      },
+      "id": "ID",
+      "nome": "Nome",
+      "descricao": "Descricao"
+    }
+  }
+}
